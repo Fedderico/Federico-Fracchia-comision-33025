@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    background: rgb(255, 0, 0);
+    background: linear-gradient(151deg, rgba(255, 0, 0, 1) 0%, rgba(30, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bodySkills,
+.bodyAbout,
+.bodyContact,
+.bodyBlog {
+    background-image: url(https://swisscyberinstitute.com/wp-content/uploads/2022/07/cybersecurity-soft-skills.jpg);
+}
+
+.black {
+    background-color: black;
+}
+
+.osc {
+    opacity: 0.7 !important;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.sitioWeb {
+    color: #cfa12b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: black;
+}
+
+
+.navbar {
+    padding: 1fr;
+}
+
+.fondo {
+    background-image: url(https://fondosmil.com/fondo/3052.jpg);
+    background-size: cover;
+
+}
+
+
+.scroll {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.npc {
+    margin-top: 400px;
+    text-decoration: none;
+    color: #F5B205;
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.inicio,
+.titulo {
+    color: #F5B205;
+    font-size: 40px;
+
+}
+
+.cuadroDeTexto {
+    height: 50vh;
+    background-color: rgb(0, 0, 0);
+    margin-top: 30px;
+    opacity: 0.7;
+}
+
+.txt {
+    color: #ffb700;
+}
+
+section {
+    height: 80vh;
+}
+
+.instagram {
+    text-decoration: none;
+    color: #ffb700;
+
+}
+
+.container1 {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+
+        "grid1 grid2"
+        "grid3 grid4";
+
+    gap: 30px;
+
+
+}
+i{
+    transition: all ease-in-out 0.4ms;
+    text-decoration: none;
+    color:#ffb700;
+    box-shadow: 2px 2px 5px (red 0.5 );
+}
+.grid1 :hover {
+    transform:scale(1.2);
+}
+
+.grid1 {
+    grid-area: grid1;
+    text-decoration: none;
+    display: flex;
+    align-items:center;;
+    justify-content:center;
+    font-size: 100px;
+    transition: ease-in-out 0.5ms;
+    box-shadow: 2px 2px 5px (red 0.5 );
+}
+
+.grid2 :hover {
+    transform:scale(1.2);
+ }
+.grid2 {
+    grid-area: grid2;
+    text-decoration: none;
+    display: flex;
+    align-items:center;;
+    justify-content:center;
+    font-size: 100px;
+    transition: ease-in-out 0.5ms;
+    box-shadow: 2px 2px 5px (red 0.5 );
+}
+
+.grid3 :hover{
+    transform: scale(1.2);
+}
+.grid3 {
+    grid-area: grid3;
+    text-decoration: none;
+    display: flex;
+    align-items:center;;
+    justify-content:center;
+    font-size: 100px;
+    transition: ease-in-out 0.5ms;
+    box-shadow: 2px 2px 5px (red 0.5 );
+}
+.grid4 :hover{
+    transform: scale(1.2);
+}
+.grid4 {
+    grid-area: grid4;
+    text-decoration: none;
+    display: flex;
+    align-items:center;;
+    justify-content:center;
+    font-size: 100px;
+    transition: ease-in-out 0.5ms;
+    box-shadow: 2px 2px 5px (red 0.5 );
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F5B205;
+    margin-top: 50px;
+
+}
+
+
+
+@media screen and (max-width: 1035px) {
+
+    .txt{
+        overflow: hidden
+    }
+    
+}
